@@ -1,0 +1,41 @@
+/* #Reset & Basics */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong, tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video,input  {margin:0;padding:0;}
+img{border:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block;}
+ol,ul {list-style:none;}
+blockquote,q{quotes:none;}
+textarea{overflow:auto;resize:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+textarea,input,button,select,keygen,legend{font:inherit;}
+input {-webkit-appearance: none; }
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+/* #Basic Styles
+================================================== */
+* {-webkit-box-sizing: border-box;  -moz-box-sizing: border-box;  box-sizing: border-box;}
+html {font-size: 62.5%;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;width:100%;height:100%;}
+body {-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%; font-family: "Lucida Grande","Lucida Sans Unicode",STHeiti,"Hiragino Sans GB","Lucida Grande","Microsoft YaHei",arial;width:100%;height:100%;color:#000;}
+img {max-width: 100%;vertical-align: middle;}
+
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;font-size: 0}
+.clearfix {zoom: 1;}
+
+a,a:hover{color:#fff;}
+
+.video-play {
+	width: 322px;
+	height: 159px;
+}
+
+.play-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.btn {
+	width:100px;
+	height:100px;
+	background-color:#000;
+}
